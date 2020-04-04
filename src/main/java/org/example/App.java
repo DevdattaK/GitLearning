@@ -10,9 +10,7 @@ import java.util.Map;
 public class App {
     public static void main(String[] args) {
         Map<String, Double> testMap = new HashMap<>();
-
         long count = testMap.values().stream().count();
-
         System.out.println(count);
     }
 }
